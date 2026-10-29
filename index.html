@@ -1,0 +1,993 @@
+1.	<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI \\\& Technology | School Project</title>
+
+<style>
+
+\\\* { box-sizing: border-box; scroll-behavior: smooth; }
+
+
+
+body {
+
+\&nbsp; margin: 0;
+
+\&nbsp; font-family: Arial, sans-serif;
+
+\&nbsp; background: #07152e;
+
+\&nbsp; color:
+
+
+
+&nbsp;white;
+
+\&nbsp; line-height: 1.6;
+
+}
+
+
+
+header {
+
+\&nbsp; background: #0c2144;
+
+\&nbsp; padding: 18px;
+
+\&nbsp; text-align: center;
+
+\&nbsp; border-bottom: 2px solid #00cfff;
+
+}
+
+
+
+header h1 { margin: 0; color: #00cfff; }
+
+
+
+nav {
+
+\&nbsp; display: flex;
+
+\&nbsp; justify-content: center;
+
+\&nbsp; flex-wrap: wrap;
+
+\&nbsp; gap: 18px;
+
+\&nbsp; padding: 15px;
+
+\&nbsp; background: #10294e;
+
+}
+
+
+
+nav a {
+
+\&nbsp; color: white;
+
+\&nbsp; text-decoration: none;
+
+\&nbsp; font-weight: bold;
+
+}
+
+
+
+nav a:hover { color: #00cfff; }
+
+
+
+.hero {
+
+\&nbsp; text-align: center;
+
+\&nbsp; padding: 65px 20px;
+
+\&nbsp; background: linear-gradient(135deg, #07152e, #124c8c);
+
+}
+
+
+
+.hero h2 {
+
+\&nbsp; font-size: 42px;
+
+\&nbsp; margin-bottom: 10px;
+
+}
+
+
+
+.hero span { color: #00cfff; }
+
+
+
+.hero p {
+
+\&nbsp; max-width: 650px;
+
+\&nbsp; margin: 15px auto 25px;
+
+}
+
+
+
+button {
+
+\&nbsp; background: #008cff;
+
+\&nbsp; color: white;
+
+\&nbsp; border: none;
+
+\&nbsp; padding: 12px 22px;
+
+\&nbsp; border-radius: 8px;
+
+\&nbsp; cursor: pointer;
+
+\&nbsp; font-weight: bold;
+
+}
+
+
+
+button:hover { background: #00bfe8; color: #07152e; }
+
+
+
+main {
+
+\&nbsp; max-width: 1100px;
+
+\&nbsp; margin: auto;
+
+\&nbsp; padding: 25px 18px;
+
+}
+
+
+
+section {
+
+\&nbsp; padding: 25px 0;
+
+\&nbsp; scroll-margin-top: 15px;
+
+}
+
+
+
+h2 { color: #00cfff; }
+
+
+
+.grid {
+
+\&nbsp; display: grid;
+
+\&nbsp; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+\&nbsp; gap: 18px;
+
+}
+
+
+
+.card {
+
+\&nbsp; background: #10294e;
+
+\&nbsp; padding: 22px;
+
+\&nbsp; border-radius: 14px;
+
+\&nbsp; border: 1px solid #22517c;
+
+\&nbsp; transition: transform 0.2s;
+
+}
+
+
+
+.card:hover { transform: translateY(-5px); }
+
+
+
+.card h3 { color: #65dcff; }
+
+
+
+.icon { font-size: 36px; }
+
+
+
+.panel {
+
+\&nbsp; background: #10294e;
+
+\&nbsp; padding: 24px;
+
+\&nbsp; border-radius: 14px;
+
+\&nbsp; margin-bottom: 18px;
+
+}
+
+
+
+.columns {
+
+\&nbsp; display: grid;
+
+\&nbsp; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+\&nbsp; gap: 18px;
+
+}
+
+
+
+.good { border-left: 4px solid #24d98b; }
+
+.bad { border-left: 4px solid #ff6b6b; }
+
+
+
+.quiz {
+
+\&nbsp; background: #10294e;
+
+\&nbsp; border: 1px solid #00cfff;
+
+\&nbsp; padding: 25px;
+
+\&nbsp; border-radius: 14px;
+
+}
+
+
+
+\\#result { color: #6fffc2; font-weight: bold; }
+
+
+
+footer {
+
+\&nbsp; background: #030b1b;
+
+\&nbsp; padding: 25px;
+
+\&nbsp; text-align: center;
+
+\&nbsp; color: #c9ddf8;
+
+}
+
+
+
+footer span { color: #00cfff; }
+
+
+
+@media (max-width: 600px) {
+
+\&nbsp; .hero h2 { font-size: 30px; }
+
+\&nbsp; nav { gap: 12px; }
+
+}
+
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+  <h1>🤖 AI \& TECHNOLOGY</h1>
+
+  <p>Discover the Technology of Tomorrow</p>
+
+</header>
+
+
+
+<nav>
+
+  <a href="#home">Home</a>
+
+  <a href="#about">About AI</a>
+
+  <a href="#types">Types</a>
+
+  <a href="#uses">Uses</a>
+
+  <a href="#technology">Technology</a>
+
+  <a href="#future">Future</a>
+
+  <a href="#quiz">Quiz</a>
+
+</nav>
+
+
+
+<div class="hero" id="home">
+
+  <h2>The Future of <span>Technology</span></h2>
+
+  <p>
+
+    Artificial Intelligence is changing how we learn, work,
+
+    communicate and solve problems. Explore the exciting world
+
+    of AI and modern technology.
+
+  </p>
+
+  <a href="#about">
+
+    <button>Explore More →</button>
+
+  </a>
+
+</div>
+
+
+
+<main>
+
+
+
+<section id="about">
+
+  <h2>🧠 What is Artificial Intelligence?</h2>
+
+  <div class="panel">
+
+    <p>
+
+      Artificial Intelligence (AI) is a branch of computer science
+
+      that develops systems capable of performing tasks such as
+
+      recognising patterns, understanding language and solving problems.
+
+    </p>
+
+    <p>
+
+      AI is used in education, healthcare, transportation, entertainment
+
+      and many other areas of daily life.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<section id="types">
+
+  <h2>💡 Types of AI</h2>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <div class="icon">🎯</div>
+
+      <h3>Narrow AI</h3>
+
+      <p>Designed for specific tasks, such as voice assistants,
+
+      recommendations and image recognition.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🧠</div>
+
+      <h3>General AI</h3>
+
+      <p>A theoretical AI that could perform a wide range of
+
+      intellectual tasks at a human-like level.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🚀</div>
+
+      <h3>Super AI</h3>
+
+      <p>A hypothetical concept of AI that would surpass human
+
+      abilities across many areas.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="uses">
+
+  <h2>🌍 Uses of AI in Daily Life</h2>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <div class="icon">🎓</div>
+
+      <h3>Education</h3>
+
+      <p>Learning tools, practice questions and study assistance.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🏥</div>
+
+      <h3>Healthcare</h3>
+
+      <p>Medical research and helping professionals analyse scans.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🚗</div>
+
+      <h3>Transportation</h3>
+
+      <p>Navigation, traffic prediction and driver assistance.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🌾</div>
+
+      <h3>Agriculture</h3>
+
+      <p>Crop monitoring and helping farmers manage resources.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🎬</div>
+
+      <h3>Entertainment</h3>
+
+      <p>Video recommendations, editing and digital effects.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🏠</div>
+
+      <h3>Smart Homes</h3>
+
+      <p>Connected devices, voice assistants and energy controls.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section>
+
+  <h2>⚖️ Advantages and Disadvantages</h2>
+
+  <div class="columns">
+
+    <div class="panel good">
+
+      <h3>✅ Advantages</h3>
+
+      <ul>
+
+        <li>Saves time on repetitive tasks</li>
+
+        <li>Can analyse large amounts of data</li>
+
+        <li>Supports learning and research</li>
+
+        <li>Helps solve complex problems</li>
+
+        <li>Can improve accessibility</li>
+
+      </ul>
+
+    </div>
+
+    <div class="panel bad">
+
+      <h3>❌ Disadvantages</h3>
+
+      <ul>
+
+        <li>Can provide incorrect answers</li>
+
+        <li>Privacy and security risks</li>
+
+        <li>Some jobs may change</li>
+
+        <li>Over-dependence on technology</li>
+
+        <li>Cost and energy requirements</li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="technology">
+
+  <h2>💻 Modern Technologies</h2>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <div class="icon">📊</div>
+
+      <h3>Machine Learning</h3>
+
+      <p>Helps computers find patterns in data and make predictions.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🕸️</div>
+
+      <h3>Deep Learning</h3>
+
+      <p>A type of machine learning using layered neural networks.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🤖</div>
+
+      <h3>Robotics</h3>
+
+      <p>Designing machines that sense their environment and perform actions.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">📡</div>
+
+      <h3>Internet of Things</h3>
+
+      <p>Connects physical devices so they can exchange information.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">☁️</div>
+
+      <h3>Cloud Computing</h3>
+
+      <p>Uses internet-based services to store data and run applications.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🛡️</div>
+
+      <h3>Cybersecurity</h3>
+
+      <p>Protects computers, networks and information from digital threats.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🥽</div>
+
+      <h3>AR and VR</h3>
+
+      <p>Creates augmented and immersive virtual experiences.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🗃️</div>
+
+      <h3>Big Data</h3>
+
+      <p>Tools for processing and analysing very large datasets.</p>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon">🌱</div>
+
+      <h3>Green Technology</h3>
+
+      <p>Develops ways to use resources efficiently and reduce pollution.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="future">
+
+  <h2>🔮 Future of AI and Technology</h2>
+
+  <div class="panel">
+
+    <h3>🚀 What might the future bring?</h3>
+
+    <ul>
+
+      <li>More personalised learning tools</li>
+
+      <li>New discoveries in science and medicine</li>
+
+      <li>Smarter energy and transport systems</li>
+
+      <li>More advanced robots and automation</li>
+
+      <li>People and AI working together</li>
+
+    </ul>
+
+    <p>Future developments are uncertain. Human judgement, safety
+
+    and responsible use will remain important.</p>
+
+  </div>
+
+</section>
+
+
+
+<section id="quiz">
+
+  <h2>🧪 AI Knowledge Quiz</h2>
+
+  <div class="quiz">
+
+    <h3 id="question">What does AI stand for?</h3>
+
+    <div id="options" class="columns"></div>
+
+    <p id="result"></p>
+
+    <button onclick="nextQuestion()" id="next">Next Question →</button>
+
+    <p id="score"></p>
+
+  </div>
+
+</section>
+
+
+
+<section>
+
+  <h2>📘 Conclusion</h2>
+
+  <div class="panel">
+
+    <p>
+
+      AI and modern technologies provide many opportunities to improve
+
+      our lives. However, they should be used responsibly. We should
+
+      protect personal information, check facts and keep learning new skills.
+
+    </p>
+
+    <h3>Learn Today | Build Tomorrow 🌎</h3>
+
+  </div>
+
+</section>
+
+
+
+<section>
+
+  <h2>📝 Project Details</h2>
+
+  <div class="panel">
+
+    <p>Student Name: \P_\r_\a_\t_\y_\a_\k_\a_\h_\_\J_\a_\i_\s_\w_\a_\l_\_\_\_</p>
+
+    <p>Class and Section: \9_\_\_\(B_)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</p>
+
+    <p>School Name: \P_\o_\l_\i_\c_\e_\_\M_\o_\d_\e_\r_\n_\_s\_c\_h\o_\o_\l_\_</p>
+
+    <p>Subject: Computer / Information Technology</p>
+
+  </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<footer>
+
+  <h3><span>🤖 AI \& TECHNOLOGY</span></h3>
+
+  <p>School Project | Learn Today, Build Tomorrow</p>
+
+</footer>
+
+
+
+<script>
+
+const questions = \\\[
+
+\&nbsp; {
+
+\&nbsp;   q: "What does AI stand for?",
+
+\&nbsp;   options: \\\["Artificial Intelligence", "Automatic Internet",
+
+\&nbsp;             "Advanced Information", "Applied Innovation"],
+
+\&nbsp;   answer: 0
+
+\&nbsp; },
+
+\&nbsp; {
+
+\&nbsp;   q: "Which technology connects physical devices to the internet?",
+
+\&nbsp;   options: \\\["Robotics only", "IoT", "Word processing", "Printing"],
+
+\&nbsp;   answer: 1
+
+\&nbsp; },
+
+\&nbsp; {
+
+\&nbsp;   q: "What does cybersecurity protect?",
+
+\&nbsp;   options: \\\["Only books", "Only weather data",
+
+\&nbsp;             "Devices, networks and information", "Only roads"],
+
+\&nbsp;   answer: 2
+
+\&nbsp; },
+
+\&nbsp; {
+
+\&nbsp;   q: "Which is a possible risk of AI?",
+
+\&nbsp;   options: \\\["It never makes mistakes", "Privacy risks",
+
+\&nbsp;             "It always knows everything", "It needs no design"],
+
+\&nbsp;   answer: 1
+
+\&nbsp; },
+
+\&nbsp; {
+
+\&nbsp;   q: "What is cloud computing used for?",
+
+\&nbsp;   options: \\\["Only drawing clouds", "Growing plants",
+
+\&nbsp;             "Online storage and computing services", "Making paper"],
+
+\&nbsp;   answer: 2
+
+\&nbsp; }
+
+];
+
+
+
+let current = 0;
+
+let score = 0;
+
+let answered = false;
+
+
+
+function showQuestion() {
+
+\&nbsp; answered = false;
+
+\&nbsp; const q = questions\\\[current];
+
+\&nbsp; document.getElementById("question").textContent =
+
+\&nbsp;   (current + 1) + ". " + q.q;
+
+\&nbsp; document.getElementById("result").textContent = "";
+
+\&nbsp; document.getElementById("next").style.display = "none";
+
+
+
+\&nbsp; const options = document.getElementById("options");
+
+\&nbsp; options.innerHTML = "";
+
+
+
+\&nbsp; q.options.forEach((option, index) => {
+
+\&nbsp;   const button = document.createElement("button");
+
+\&nbsp;   button.textContent = option;
+
+\&nbsp;   button.style.cssText =
+
+\&nbsp;     "padding:12px;border:1px solid #00cfff;border-radius:8px;" +
+
+\&nbsp;     "background:#0c2144;color:white;cursor:pointer";
+
+\&nbsp;   button.onclick = () => checkAnswer(index);
+
+\&nbsp;   options.appendChild(button);
+
+\&nbsp; });
+
+
+
+\&nbsp; document.getElementById("score").textContent =
+
+\&nbsp;   "Question " + (current + 1) + " of " + questions.length;
+
+}
+
+
+
+function checkAnswer(index) {
+
+\&nbsp; if (answered) return;
+
+\&nbsp; answered = true;
+
+
+
+\&nbsp; if (index === questions\\\[current].answer) {
+
+\&nbsp;   score++;
+
+\&nbsp;   document.getElementById("result").textContent = "Correct! Well done.";
+
+\&nbsp; } else {
+
+\&nbsp;   document.getElementById("result").textContent =
+
+\&nbsp;     "Not quite. Correct answer: " +
+
+\&nbsp;     questions\\\[current].options\\\[questions\\\[current].answer];
+
+\&nbsp; }
+
+
+
+\&nbsp; document.getElementById("next").style.display = "inline-block";
+
+}
+
+
+
+function nextQuestion() {
+
+\&nbsp; if (!answered) return;
+
+
+
+\&nbsp; current++;
+
+
+
+\&nbsp; if (current < questions.length) {
+
+\&nbsp;   showQuestion();
+
+\&nbsp; } else {
+
+\&nbsp;   document.getElementById("question").textContent = "Quiz Completed!";
+
+\&nbsp;   document.getElementById("options").innerHTML = "";
+
+\&nbsp;   document.getElementById("result").textContent =
+
+\&nbsp;     "Your score: " + score + " out of " + questions.length;
+
+\&nbsp;   document.getElementById("score").textContent =
+
+\&nbsp;     score === questions.length
+
+\&nbsp;     ? "Excellent! You know your technology."
+
+\&nbsp;     : "Keep learning and try again!";
+
+\&nbsp;   document.getElementById("next").textContent = "Restart Quiz";
+
+\&nbsp;   document.getElementById("next").onclick = restartQuiz;
+
+\&nbsp; }
+
+}
+
+
+
+function restartQuiz() {
+
+\&nbsp; current = 0;
+
+\&nbsp; score = 0;
+
+\&nbsp; document.getElementById("next").textContent = "Next Question →";
+
+\&nbsp; document.getElementById("next").onclick = nextQuestion;
+
+\&nbsp; showQuestion();
+
+}
+
+
+
+showQuestion();
+
+
+
+
+</body>
+
+</html>
+
